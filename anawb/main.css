@@ -1,0 +1,139 @@
+	
+
+/* http://css-tricks.com/perfect-full-page-background-image/ */
+html {
+	height: 100%;
+	background: url(img/flowe1.gif) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	height: 100%;
+	padding-top: 20px;
+	font-size: 16px;
+	background: transparent;
+}
+
+
+#nameID {
+	color: #ff0000; 
+	font-size: 30px; 
+	font-weight: bold; 
+}
+
+#aboutMe{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.42;
+	border-radius: 75px;
+	margin-top: 10%;
+	margin-left: 5%; 
+	background: #ff4c4c;
+		color: white; 
+
+}
+#hireMe{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.42;
+	border-radius: 75px;
+	margin-top: 10%;
+	margin-left: 20% ; 
+	background: #ff6666;
+		color: white; 
+
+}
+#funFacts{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.42;
+	border-radius: 75px;
+	margin-top: 10%;
+	 margin-left: 35%;
+	background: #ff7f7f;
+		color: white; 
+
+}
+.mainText{
+	font-size: 20px; 
+	padding-top: 35%;
+	font-family: 'Roboto Slab', serif;
+}
+#mainQuote{
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 50px;
+	margin-top: 40px  ;
+	border: 0; 
+	text-align: center;
+}
+a{
+	color: white;
+}
+a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    font-weight: bold;
+}
+/******** about me ****/
+#tabsLeft {
+	margin-top: 10%;
+}
+
+#tabsLeft li a: visited{
+	color: white;
+}
+
+#aboutMeTab a{
+	background: #ff4c4c;
+}
+
+#hireMeTab a{
+	background: #ff6666;
+	color: white!important;
+}
+
+#funFactsTab a{
+	background: #ff7f7f;
+	color:white!important;
+}
+#homeTab a{
+	background: #ff0000;
+	color: white;
+}
+#homeTab a:hover{
+	font-weight: bold;
+}
+
+#rightContent{
+  background: rgba(255,255,255, 0.8);
+  color: inherit;
+  border-radius: 10px;
+}
+
+#rightSideTxt{
+	font-family: 'Roboto Slab', serif;
+	color: black;
+	font-size: 20px;
+}
